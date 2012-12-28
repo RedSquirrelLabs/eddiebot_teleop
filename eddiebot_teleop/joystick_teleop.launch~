@@ -1,0 +1,11 @@
+<launch>
+
+  <!--- Teleop Joystick -->
+  <node pkg="eddiebot_teleop" type="eddiebot_teleop_joy" name="eddiebot_teleop_joystick">
+    <param name="scale_angular" value="0.05"/>
+    <param name="scale_linear" value="0.1"/>
+  </node>
+
+  <node pkg="joy" type="joy_node" name="joystick"/>
+
+</launch>

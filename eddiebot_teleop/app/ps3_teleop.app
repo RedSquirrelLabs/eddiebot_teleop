@@ -1,0 +1,5 @@
+display: PS3 Joystick
+description: Control the EddieBot with a PlayStation 3 Joystick.
+platform: eddiebot
+launch: eddiebot_teleop/ps3_teleop_app.launch
+interface: eddiebot_teleop/ps3_teleop.interface
