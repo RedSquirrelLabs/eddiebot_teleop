@@ -1,1 +1,0 @@
-/usr/bin/c++   -O2 -g     -pthread CMakeFiles/eddiebot_teleop_joy.dir/src/eddiebot_joy.o  -o ../bin/eddiebot_teleop_joy -rdynamic -L/opt/ros/fuerte/lib -lroscpp -lrostime -lrosconsole -lroscpp_serialization -lxmlrpcpp -lrosbag -Wl,-rpath,/opt/ros/fuerte/lib 
